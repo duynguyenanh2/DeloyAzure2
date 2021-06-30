@@ -18,3 +18,5 @@ steps:
       api_location: 'api'
       azure_static_web_apps_api_token: '$(deployment_token)'
 
+
+
