@@ -14,7 +14,7 @@ steps:
     submodules: true
   - task: AzureStaticWebApp@0
     inputs:
-    app_location: '/'
-    api_location: 'api'
-    azure_static_web_apps_api_token: '$(deployment_token)'
+      app_location: '/'
+      api_location: 'api'
+      azure_static_web_apps_api_token: '$(deployment_token)'
 
